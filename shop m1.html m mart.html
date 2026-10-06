@@ -1,0 +1,297 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>m mart</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #0b7a3b;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+        }
+
+        .welcome {
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background: white;
+            width: 220px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px #ccc;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+        }
+
+        .price {
+            color: #0b7a3b;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        button {
+            background: #25D366;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        .contact {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🛒 m mart</h1>
+    <p>Your Local Shopping Store</p>
+</header>
+
+<section class="welcome">
+    <h2>Welcome to M Mart</h2>
+    <p>Quality Products • Best Prices • Easy Shopping</p>
+</section>
+
+<section class="products">
+
+    <div class="product">
+        <h3>Rice</h3>
+        <p class="price">₹10 / Kg</p>
+        <button>Order Now</button>
+    </div>
+
+    <div class="product">
+        <h3>Sugar</h3>
+        <p class="price">₹82/ Kg</p>
+        <button>Order Now</button>
+    </div>
+
+    <div class="product">
+        <h3>Oil</h3>
+        <p class="price">₹158</p>
+        <button>Order Now</button>
+    </div>
+
+    <div class="product">
+        <h3>Biscuits</h3>
+        <p class="price">₹20</p>
+        <button>Order Now</button>
+    </div>                                                               <3 types biscuits>
+
+</section>
+
+<section class="contact">
+    <h2>Contact M Mart</h2>
+    <p>📞 Phone 9740117568</p>
+    <p>📍 Your Shop Address< indira nagar majid opposite >
+    <p> MALKHED<P> 
+    <p>   SHOP OWNER MALLIKARJUN NANDURKAR<1000>
+    <P> OPEN 6am to 9 pm
+    <button>WhatsApp Order</button>
+</section> <class.order cash on pay >
+
+<footer>
+    © 2026 m mart| All Rights Reserved
+</footer>
+
+</body>
+</html><shop <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+/* Header */
+header {
+    background: #0b7a3b;
+    color: red;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Welcome */
+.welcome {
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.welcome h2 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* Products */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background: white;
+    width: 220px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #ccc;
+}
+
+.product h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.price {
+    color: #0b7a3b;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Button */
+button {
+    background: #25D366;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #128C7E;
+}
+
+/* Contact */
+.contact {
+    background: white;
+    text-align: center;
+    padding: 35px 15px;
+    margin-top: 25px;
+}
+
+.contact h2 {
+    margin-bottom: 15px;
+}
+
+.contact p {
+    margin: 8px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: red;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    .product {
+        width: 90%;}
+    </style><script>// m Mart JavaScript
+
+// Order button
+const orderButtons = document.querySelectorAll(".product button");
+
+orderButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+
+        const product = this.parentElement.querySelector("h3").innerText;
+        const price = this.parentElement.querySelector(".price").innerText;
+
+        alert(
+            "m mart\n\n" +
+            "Product: " + product + "\n" +
+            "Price: " + price + "\n\n" +
+            "Order selected successfully!"
+        );
+    });
+});
+
+
+// WhatsApp Order button
+const whatsappButton = document.querySelector(".contact button");
+
+whatsappButton.addEventListener("click", function() {
+
+    const phoneNumber = "919740117568";
+
+    const message = "Hello m mart! I want to place an order.";
+
+    const whatsappURL =
+        "https://wa.me/" + phoneNumber +
+        "?text=" + encodeURIComponent(message);
+
+    window.location.href = whatsappURL;
+}); </script>
